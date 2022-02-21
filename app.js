@@ -1,4 +1,4 @@
-const container = document.querySelector('.activities');
+const container = document.querySelector('.activities ul');
 const formElement = document.forms['manipulate-item'];
 formElement.addEventListener('submit', e =>{
     e.preventDefault();
@@ -13,17 +13,25 @@ link.addEventListener('click', e => {
         console.log(item);
 
             //  create Element
-    const ul = document.createElement('ul');
     const li = document.createElement('li');
     const span = document.createElement('span');
+    const cancel = document.createElement('span'); 
+    const status = document.createElement('span');
 
     //  Append element
-    container.appendChild(ul);
-    ul.appendChild(li);
+    container.appendChild(li);
     li.appendChild(span);
+    li.appendChild(cancel);
+    li.appendChild(status);
 
     // ADD content
     span.textContent = item;
+    cancel.textContent = 'x';
+    status.textContent = 'Done';
+
+    // Add  classes
+    cancel.classList.add('cancel')
+    status.classList.add('status');
     
 })
 

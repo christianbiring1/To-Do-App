@@ -6,14 +6,20 @@
 }
 .wrapper{
     width: 60%;
-    /* background-color: blueviolet; */
+    background-color: #d4c4c4; 
     margin: 5rem auto;
+    border-radius: 20px;
+    
 }
 header{
     text-align: center;
     padding: 2em 1.5em;
     border: 2px solid #000;
     border-radius: 20px;
+    background-color: #fff;
+}
+form{
+    margin-left: -1.45rem; 
 }
 input[type="text"]{
     background-color: #dbcdcd;
@@ -29,8 +35,22 @@ button{
     margin-top: 10px;
     border: transparent;
     border-radius: 2px;
+    background-color: #dbcdcd;
+}
+.activities{
+    margin: 0 .1em ;
+    padding: 20px;
 }
 /* JavaScript element */
-ul{
+li{
     list-style-type: none;
+    line-height: 1.4;
+    margin-top: .5em;
 }
+.status, .cancel{
+    float: right; 
+    border: 1px solid #5c5a5a;
+    padding: 0 .2em;
+
+}
+    
