@@ -33,10 +33,23 @@ link.addEventListener('click', e => {
     cancel.classList.add('cancel')
     status.classList.add('status');
     
-    // Remove item
+    // Remove item on the list
+    const rmv = document.querySelectorAll('.cancel');
+    rmv.forEach(btn => {
+        btn.addEventListener('click', e => {
+        const par = e.target.parentElement; 
+        par.parentNode.removeChild(par);
+    })
+})
+
+// Clear the list 
+
+const cl = document.querySelector('.clear')
+ cl.addEventListener('click', e =>{
+     
+ })
     
 })
-const rmv = document.querySelector('span .cancel');
 
 
 
