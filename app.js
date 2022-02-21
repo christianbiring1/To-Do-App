@@ -33,7 +33,10 @@ link.addEventListener('click', e => {
     cancel.classList.add('cancel')
     status.classList.add('status');
     
+    // Remove item
+    
 })
+const rmv = document.querySelector('span .cancel');
 
 
 
