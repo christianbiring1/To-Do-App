@@ -42,13 +42,15 @@ link.addEventListener('click', e => {
     })
 })
 
-// Clear the list 
+// complete the does 
 
-const cl = document.querySelector('.clear')
- cl.addEventListener('click', e =>{
-     
- })
-    
+const ok = document.querySelectorAll('.status')
+   ok.forEach(item => {
+       item.addEventListener('click', e =>{
+           e.target.style.backgroundColor = 'lightgreen';
+       })
+   })
+    console.log(ok);
 })
 
 
