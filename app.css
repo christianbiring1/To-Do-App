@@ -55,4 +55,15 @@ li{
     cursor: pointer;
 
 }
+@media screen and (max-width: 425px){
+    input[type="text"]{
+        width: 90%;
+    }
+    form{
+        margin-left: 0; 
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
     
