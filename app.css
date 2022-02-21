@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.wrapper{
+    width: 60%;
+    background-color: blueviolet;
+    margin: 5rem auto;
+    text-align: center;
+}
+header{
+    padding: 2em 1.5em;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
