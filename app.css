@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'ubuntu';
 }
 .wrapper{
     width: 60%;
@@ -14,4 +15,18 @@ header{
     border: 2px solid #000;
     border-radius: 20px;
 }
-
+input[type="text"]{
+    background-color: #dbcdcd;
+    padding: .2em .5em;
+    font-size: .9rem;
+    margin-top: 10px;
+    border: transparent;
+    border-radius: 2px;
+}
+button{
+    padding: .2em .5em;
+    font-size: .9rem;
+    margin-top: 10px;
+    border: transparent;
+    border-radius: 2px;
+}
