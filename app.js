@@ -38,7 +38,9 @@ link.addEventListener('click', e => {
     rmv.forEach(btn => {
         btn.addEventListener('click', e => {
         const par = e.target.parentElement; 
+        if(confirm('Are you sure you want to delete this item')){
         par.parentNode.removeChild(par);
+        }
     })
 })
 
